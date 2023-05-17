@@ -1,0 +1,42 @@
+Favbook.html
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Favorite Book</title>
+<table border="1" style="width:100">
+<tr>
+<th>Title</th>
+<th>Author</th>
+<th>Year</th>
+<th>Links</th>
+</tr>
+<tr>
+<td>The last ride</td>
+<td>Thomas Eidson</td>
+<td>1995</td>
+<td><ul>
+<li><a href ="m.wikipedia.org/wiki/The_Last_Ride_(novel)">Wikipedia</a>
+</li>
+<li><a href ="https://www.goodreads.com/book/show/30981695-the-last-ride?ref=nav_sb_ss_1_20">GoodReads</a>
+</li>
+<li><a href ="https://a.co/d/5PfOj6M">Amazon</a>
+</li>
+<li><a href ="https://www.ebay.com/p/1930397346">Ebay</a>
+</li>
+
+</td>
+</tr> 
+</table>
+</title>
+</head>
+<body>
+<form action="/submit.php" method="post" target="_self" id="logform">
+Username : <input type = "text" name="username"<br>
+Password : <input type = "password" name="pass"<br>
+<button type="submit" value="Submit">Submit</button>
+<button type="reset" value="Clear">Clear</button> 
+</form>
+<textarea name="comment" form ="logform">Comments</textarea>
+</body> 
+</html>
